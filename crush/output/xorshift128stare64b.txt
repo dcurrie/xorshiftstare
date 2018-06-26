@@ -1,0 +1,52 @@
+Using __uint128_t
+
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        xorshift128stare64b low32
+ Number of statistics:  15
+ Total CPU time:   00:00:05.07
+
+ All tests were passed
+
+
+
+Using __uint128_t
+
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        xorshift128stare64b low32 reversed
+ Number of statistics:  15
+ Total CPU time:   00:00:05.49
+
+ All tests were passed
+
+
+
+Using __uint128_t
+
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        xorshift128stare64b high32
+ Number of statistics:  15
+ Total CPU time:   00:00:05.50
+
+ All tests were passed
+
+
+
+Using __uint128_t
+
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        xorshift128stare64b high32 reversed
+ Number of statistics:  15
+ Total CPU time:   00:00:05.37
+
+ All tests were passed
+
+
+

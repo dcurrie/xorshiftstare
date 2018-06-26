@@ -1,0 +1,55 @@
+
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        xorshift64stare32a low32
+ Number of statistics:  15
+ Total CPU time:   00:00:04.95
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+ 10  RandomWalk1 H                   9.9e-4
+ ----------------------------------------------
+ All other tests were passed
+
+
+
+
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        xorshift64stare32a low32 reversed
+ Number of statistics:  15
+ Total CPU time:   00:00:04.96
+
+ All tests were passed
+
+
+
+
+========= Summary results of Crush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        xorshift64stare32a low32
+ Number of statistics:  144
+ Total CPU time:   00:24:24.75
+
+ All tests were passed
+
+
+
+
+========= Summary results of Crush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        xorshift64stare32a low32 reversed
+ Number of statistics:  144
+ Total CPU time:   00:29:53.60
+
+ All tests were passed
+
+
+

@@ -5,7 +5,11 @@
 
 #if HWD_PRNG_BITS == 64
 
+#if HAVE___UINT128_T
 static uint128_v rng_state = 1u;
+#else
+static uint128_v rng_state = { .hi = 0u, .lo = 1u };
+#endif
 
 static inline uint64_t next (void)
 {

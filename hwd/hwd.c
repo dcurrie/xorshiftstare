@@ -74,8 +74,8 @@ static time_t get_time(time_t *tout)
 {
     assert(tout == NULL);
     struct timeval t;
-    struct timezone tzp;
-    gettimeofday(&t, &tzp);
+    //struct timezone tzp;
+    gettimeofday(&t, NULL); //&tzp);
     return t.tv_sec + (t.tv_usec / (time_t )1e6);
 }
 
